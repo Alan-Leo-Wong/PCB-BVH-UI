@@ -127,7 +127,7 @@ void test_cp(const std::shared_ptr<PCBScene> &pcb_scene) {
 }
 
 int main(int argc, char **argv) {
-    const std::string pcb_in = "initial_normal.txt";
+    const std::string pcb_in = argc > 1 ? argv[1] : "initial_normal.txt";
     std::shared_ptr<PCBScene> pcb_scene = std::make_shared<PCBScene>(pcb_in);
 
 //    test_cp(pcb_scene);
