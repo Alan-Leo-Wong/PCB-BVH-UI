@@ -997,6 +997,14 @@ namespace ui {
 
             {
                 ImGui::SliderInt("Point Count", &num_dp, 1, 1000);
+
+                ImGui::TextColored(ImVec4(1.0f, 0.0f, 0.0f, 1.0f), "Red: ");
+                ImGui::SameLine();
+                ImGui::Text("Query");
+
+                ImGui::TextColored(ImVec4(0.2f, 0.3f, 0.8f, 1.0f), "Blue: ");
+                ImGui::SameLine();
+                ImGui::Text("Closest");
             }
             ImGui::End();
 
@@ -1099,7 +1107,7 @@ namespace ui {
             update_db(num_db, scene_collision);
 
             {
-                ImGui::Text("Bounding Box Collision:");
+                ImGui::Text("AABB Collision Detection:");
                 if (scene_collision)
                     ImGui::TextColored(ImVec4(1.0f, 0.0f, 0.0f, 1.0f), "Colliding");
                 else

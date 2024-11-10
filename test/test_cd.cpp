@@ -275,7 +275,7 @@ void test_bvh(const std::shared_ptr<PCBScene> &pcb_scene) {
 }
 
 int main(int argc, char **argv) {
-    const std::string pcb_in = argc > 1 ? argv[1] : "initial_normal.txt";
+    const std::string pcb_in = argc > 1 ? argv[1] : "initial_hard.txt";
     std::shared_ptr<PCBScene> pcb_scene = std::make_shared<PCBScene>(pcb_in);
 
     Vec2 bbox_min = {1.19139e+06, -3.99955e+06};
