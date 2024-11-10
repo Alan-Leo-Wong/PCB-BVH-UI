@@ -1,6 +1,6 @@
 # PCB-BVH-UI: Interactive 2D PCB Visualization and Analysis Tool
 
-![teaser](.\assets\teaser.png)
+![teaser](./assets/teaser.png)
 
 [**[Video]**](https://www.youtube.com/watch?v=AMjZWk77mFc)
 
