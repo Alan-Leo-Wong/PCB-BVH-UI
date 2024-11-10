@@ -2,7 +2,7 @@
 
 ![teaser](.\assets\teaser.png)
 
-[**[Video]**]([(1) PCB-BVH for Collision Detection and Closest Point Query - YouTube](https://www.youtube.com/watch?v=AMjZWk77mFc))
+[**[Video]**](https://www.youtube.com/watch?v=AMjZWk77mFc)
 
 Welcome to PCB-BVH-UI, an advanced extension of the [Alan-Leo-Wong/PCB-BVH](https://github.com/Alan-Leo-Wong/PCB-BVH/tree/master) project that integrates a user-friendly interface for real-time visualization and analysis of **2D PCB data** consisting of line segments and circle arcs. This tool not only enhances PCB design but also incorporates modern visualization technologies using OpenGL 4.0, Eigen for mathematical operations, and ImGui for an interactive graphical interface.
 
